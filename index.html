@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo&family=Fira+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <form action="results.html" method="GET" enctype="multipart/form-data">
+    <section class="hero">
+      <img src="https://anthonycarbonepersonalinjurylawyer.com/wp-content/uploads/2018/06/shutterstock_126920099.jpg"
+        alt="contact-page-photo">
+      <h1 class="hero__text">John Doe</h1>
+    </section>
+    <section class="columns">
+      <article class="article 1">
+        <h2 class="article__title">Why don't have a talk?</h2>
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div>
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone">
+        </div>
+        <div>
+          <label for="url">URL</label>
+          <input type="url" name="url" id="url">
+        </div>
+      </article>
+      <article class="article 2">
+        <h2 class="article__title">How did you hear about me?</h2>
+        <div>
+          <input type="radio" name="classmate" id="classmate">
+          <label for="classmate">Classmate</label>
+        </div>
+        <div>
+          <input type="radio" name="resumesubmission" id="resumesubmission">
+          <label for="resumesubmission">Resume Sumbission</label>
+        </div>
+        <div>
+          <input type="radio" name="linkedin" id="linkedin">
+          <label for="linkedin">LinkedIn</label>
+        </div>
+        <div>
+          <input type="radio" name="codingrec" id="codingrec">
+          <label for="codingrec">Coding Academy Rec</label>
+        </div>
+      </article>
+      <article class="article 3">
+        <h2 class="article__title">Would you like to be contacted?</h2>
+        <div>
+          <input type="radio" name="yes" id="yes">
+          <label for="yes">Yes</label>
+        </div>
+        <div>
+          <input type="radio" name="no" id="no">
+          <label for="no">No</label>
+        </div>
+        <h2>Would you like a birthday wish?</h2>
+        <div>
+          <label for="date">Birthdate</label>
+          <input type="date" name="date" id="date" min="2019-06-10">
+        </div>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </article>
+    </section>
+  </form>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
