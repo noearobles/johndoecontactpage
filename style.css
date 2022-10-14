@@ -28,9 +28,9 @@ img {
 
 body {
     color: rgb(130, 0, 0);
-    background: linear-gradient(-45deg, #ee7752, #673ce7, #23a6d5, #23d5ab);
+    background: linear-gradient(-45deg, #ee7752, #673ce7, #23a6d5, #23d538);
     background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    animation: gradient 20s ease infinite;
     height: 100vh;
     width: 100%;
     height: 100%;
@@ -48,14 +48,6 @@ h2 {
     margin-bottom: 15px;
 }
 
-@media(min-width:480px) {
-    .columns {
-        display: flex;
-        gap: 48px;
-        height: 50vh;
-    }
-}
-
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
@@ -70,3 +62,12 @@ h2 {
 
 
     }
+}
+
+@media(min-width:480px) {
+    .columns {
+        display: flex;
+        gap: 48px;
+        height: 50vh;
+    }
+}
