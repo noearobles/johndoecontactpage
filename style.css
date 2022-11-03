@@ -15,15 +15,12 @@ img {
 .hero__text {
     font-size: 3rem;
     text-align: center;
+    font-weight: bolder;
 }
 
 .columns {
-    display: grid;
-    grid-template-columns: auto;justify-content: center;
+    justify-content: center;
     padding: 0 48px;
-}
-
-.article {
     text-align: left;
     padding-top: 24px;
 }
@@ -42,12 +39,17 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-div {
-    padding: 10px;
-}
 
 h2 {
     margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+div{
+    margin-top: 20px;
+}
+#no{
+    margin-bottom: 30px;
 }
 
 @keyframes gradient {
